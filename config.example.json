@@ -1,0 +1,23 @@
+{
+  "Model": "deepseek/deepseek-chat",
+  "MaxFileSizeKb": 500,
+  "IgnoredFolders": [
+    "bin",
+    "obj",
+    "node_modules",
+    ".git",
+    "packages",
+    "dist",
+    "build",
+    "venv",
+    "__pycache__"
+  ],
+  "SupportedExtensions": [
+    ".cs", ".js", ".ts", ".jsx", ".tsx", ".py", ".java", ".cpp", ".c", 
+    ".h", ".hpp", ".php", ".rb", ".go", ".rs", ".swift", ".kt", ".html", 
+    ".css", ".scss", ".json", ".xml", ".yaml", ".yml", ".sql", ".sh", ".bat"
+  ],
+  "BackupEnabled": true,
+  "RetryCount": 3,
+  "ParallelProcessing": true
+}
